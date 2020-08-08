@@ -1,0 +1,9 @@
+student-distrib/Makefile.dep
+student-distrib/*.o
+student-distrib/bootimg
+student-distrib/mp3.img
+student-distrib/cifs4ceb
+student-distrib/debug.sh
+syscalls/*
+fish/*
+.vscode/

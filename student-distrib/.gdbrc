@@ -1,0 +1,8 @@
+target remote 10.0.2.2:1234
+set print array on
+set print array-indexes on
+#add-symbol-file ../syscalls/shell.exe 0x8048094
+#add-symbol-file ../syscalls/counter.exe 0x8048094
+#add-symbol-file ../syscalls/ls.exe 0x8048094
+add-symbol-file ../syscalls/grep.exe 0x8048094
+add-symbol-file ../syscalls/cat.exe 0x8048094
